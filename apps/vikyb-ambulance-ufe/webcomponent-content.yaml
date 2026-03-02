@@ -4,7 +4,10 @@ metadata:
   name: vikyb-ambulance-ufe-content
 spec:
   microFrontend: vikyb-ambulance-ufe
-  element: vikyb-ambulance-wl-list
+  element: vikyb-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /vikyb-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
