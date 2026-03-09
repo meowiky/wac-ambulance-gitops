@@ -7,7 +7,7 @@ spec:
   element: vikyb-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /vikyb-ambulance-wl/
+      value: ./vikyb-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
