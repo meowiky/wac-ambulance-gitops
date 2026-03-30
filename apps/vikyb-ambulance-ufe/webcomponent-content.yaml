@@ -10,7 +10,8 @@ spec:
       value: ./vikyb-ambulance-wl/
     - name: api-base
       # value: http://localhost:5001/api
-      value: http://localhost:30081/api
+      # value: http://localhost:30081/api
+      value: /vikyb-api
     - name: ambulance-id
       value: bobulova
   displayRules:
