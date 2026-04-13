@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/vikyb-ambulance-ufe
+- ../../../apps/vikyb-ambulance-webapi
 
 
 components:
