@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: vikyb-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich vikyb" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Viktória Bukovská" # Zadajte mená autorov
+  azureLink: "https://vikyb-ambulance.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/meowiky/wac-ambulance-ufe"
+  backendRepoUrl: "https://github.com/meowiky/wac-ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/meowiky/wac-ambulance-gitops"
